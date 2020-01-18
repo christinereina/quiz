@@ -33,16 +33,17 @@ h1 {
 
 .btn {
   border: solid 1px gray;
-  
 }
 
 #ruby, #python, #js {
   display: none;
   text-align: center;
-  font-size: medium;
-  width: 675px;
-height: 800px;
-margin: auto;
+  font-size: small;
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  border: 3px solid purple;
+  background-color: white;
 }
 
 .well {
