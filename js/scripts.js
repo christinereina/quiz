@@ -10,14 +10,17 @@ $(document).ready(function() {
     var result = question1 + question2 + question3 +  question4 + question5;
 
   if (result >=11) {
-      document.body.style.backgroundColor = "blue";
+    $('.well').hide();
+    $('#ruby').toggle();
   } else if (result >=7) {
-    document.body.style.backgroundColor = "yellow";
-  } else if (result >=5) {
-    document.body.style.backgroundColor = "red";
+    $('.well').hide();
+    $('#python').show();
   } else {
-    document.body.style.backgroundColor = "black";
+    $('.well').hide();
+    $('#js').show();
   }
+
+
 
 });
 });
