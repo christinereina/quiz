@@ -1,4 +1,14 @@
+img {
+  width: 400px;
+  height: auto;
+  margin: auto;
+}
 
+#header {
+  margin: auto;
+  text-align: center;
+
+}
 
 body {
 padding: 30px;
@@ -29,11 +39,10 @@ h1 {
 #ruby, #python, #js {
   display: none;
   text-align: center;
-}
-
-img {
-  width: 400px;
-  height: auto;
+  font-size: medium;
+  width: 675px;
+height: 800px;
+margin: auto;
 }
 
 .well {
@@ -41,4 +50,3 @@ width: 675px;
 height: 800px;
 margin: auto;
 }
-
