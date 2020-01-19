@@ -13,7 +13,7 @@ To take my quiz follow these steps:
 
 1. Clone my github repository from your computer's Terminal (make sure you are on your Desktop)
   cd desktop
-  git clone https://github.com/christinereina/ProgrammingQuiz
+  git clone https://github.com/christinereina/quiz
 
 2. Go to the programming-form folder from your Terminal
   cd programming-form
