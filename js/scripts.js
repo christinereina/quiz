@@ -20,6 +20,12 @@ $(document).ready(function() {
     $('#js').show();
   }
 
+  $(document).ready(function() {
+    $("#clickable").click(function() {
+      $('.well').show();
 
+    });
+  });
 });
 });
+
